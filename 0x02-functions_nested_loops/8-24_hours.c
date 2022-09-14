@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * jack bauer - prints 24 hours
+ * jack_bauer - prints 24 hours
  *
  * Return: void
  */
-void jack_bauer(void);
+void jack_bauer(void)
 {
 	int i, j;
 
