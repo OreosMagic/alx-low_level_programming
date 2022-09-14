@@ -19,7 +19,7 @@ int main(void)
 			total += i;
 		i++;
 	}
-	printf("%d\n", tota);
+	printf("%d\n", total);
 
 	return (0);
 }
