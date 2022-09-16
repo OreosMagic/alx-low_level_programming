@@ -1,15 +1,21 @@
-#include <stdio.h>
-#include <ctype.h>
 #include "main.h"
 
 /**
- * _isupper -function check if a c is uppercase
- * @c: char to check
- * Return: 1 or 0
+ * _isupper - is a function that checks if alphabet is uppercase
+ * @c: takes in parameter c and checks
+ * Return: Always return 0 or 1
  */
 int _isupper(int c)
 {
-	if (isupper(c))
-		retturn (1);
-	return (0);
+	int tmp;
+
+	if (c >= 65 && c <= 90)
+
+		tmp = 1;
+
+	else
+		tmp = 0;
+
+	return (tmp);
 }
+
