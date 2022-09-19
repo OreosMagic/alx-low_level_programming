@@ -2,16 +2,19 @@
 /**
  * puts2 - prints every character of a string
  * @str: string parameter input
- * Return: Noting
+ * Return: 0
  */
 void puts2(char *str)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; str[i] != '\0'; ++i)
+	while (str[i] != '\0')
 	{
 		if (i % 2 == 0)
+		{
 			_putchar(str[i]);
+		}
+		i++;
 	}
 	_putchar('\n');
 }
