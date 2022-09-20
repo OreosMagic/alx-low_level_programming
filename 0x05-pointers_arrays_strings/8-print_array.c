@@ -1,4 +1,4 @@
-"include <stdio.h>
+#include <stdio.h>
 /**
  * print_array - prints first n elements of an array
  * @a: int array to display from
