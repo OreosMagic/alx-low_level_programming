@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 
 /**
  * string_toupper - function to transform all lowercase in string to uppercase
